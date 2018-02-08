@@ -25,9 +25,9 @@ FRESH resume validation routines.
           uri: /^(?:[a-zA-Z][a-zA-Z0-9+-.]*:[^\s]*)|\s*$/
         }
       });
-      var ret = !!validate( r );
-      if( !ret )
-        console.error(validate.errors);
+
+      var ret = !!validate( rez );
+      ret || (this.errors = validate.errors);
       return ret;
     }
 
