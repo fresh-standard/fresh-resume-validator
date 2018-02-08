@@ -6,8 +6,8 @@ fresh-resume-validator
 
 ### Via the Command Line
 
-The easiest way to use the validator is with HackMyResume's `validate` command,
-which uses `fresh-resume-validator` internally.
+The easiest way to use the validator is with [HackMyResume][hmr]'s `validate`
+command, which uses `fresh-resume-validator` internally.
 
 1. Install HackMyResume with `npm i -g hackmyresume`.
 2. Validate the resume with `hackmyresume validate resume.json`.
@@ -37,4 +37,5 @@ You can also validate resumes programatically.
 MIT. See [LICENSE.md][lic] for details.
 
 [frs]: https://resume.freshstandard.org
+[hmr]: https://github.com/hacksalot/HackMyResume
 [lic]: LICENSE.md
