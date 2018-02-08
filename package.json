@@ -1,0 +1,31 @@
+{
+  "name": "fresh-resume-validator",
+  "version": "0.1.0",
+  "description": "The official validator for FRESH resumes.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fresh-standard/fresh-resume-validator.git"
+  },
+  "keywords": [
+    "resume",
+    "employment",
+    "CV",
+    "HackMyResume",
+    "FRESH",
+    "FRESCA"
+  ],
+  "author": "Mackey James <hacksalot@indevious.com> (https://github.com/hacksalot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fresh-standard/fresh-resume-validator/issues"
+  },
+  "homepage": "https://github.com/fresh-standard/fresh-resume-validator#readme",
+  "dependencies": {
+    "fresh-resume-schema": "^1.0.0-beta",
+    "is-my-json-valid": "^2.17.1"
+  }
+}
