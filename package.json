@@ -1,6 +1,6 @@
 {
   "name": "fresh-resume-validator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The official validator for FRESH resumes.",
   "main": "src/index.js",
   "scripts": {
